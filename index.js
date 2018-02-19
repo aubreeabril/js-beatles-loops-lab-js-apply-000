@@ -10,7 +10,7 @@ function theBeatlesPlay(musicians, instruments) {
 function johnLennonFacts(facts) {
   const exclamations = []
 
-  while(i < facts.length) {
+  for (let i = 0; i < facts.length; i++) {
     exclamations.push(`${facts}!!!`)
   }
   return exclamations;
