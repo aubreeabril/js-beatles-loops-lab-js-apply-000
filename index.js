@@ -9,10 +9,21 @@ function theBeatlesPlay(musicians, instruments) {
 
 function johnLennonFacts(facts) {
   const exclamations = []
-
-  for (let i = 0; i < facts.length; i++) {
+  let i = 0
+  while (i < facts.length) {
     exclamations.push(`${facts[i]}!!!`)
-    
+    i++
   }
   return exclamations;
+}
+
+function iLoveTheBeatles(n) {
+  const arr = []
+
+  do {
+    arr.push('I love the Beatles!')
+    n++
+  } while (n < 15)
+  return arr
+
 }
